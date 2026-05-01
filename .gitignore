@@ -1,0 +1,26 @@
+# Maven build output
+target/
+**/target/
+
+# Compiled class / jar files (we don't commit binaries)
+*.class
+*.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
+
+# Misc
+flatpak/flatpak-commands.txt
